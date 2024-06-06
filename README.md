@@ -11,7 +11,7 @@ Keras 2.2.2
 Matplotlib 2.2.2
 
 # Project Structure
-**data/**: Directory containing stock market datasets.
+**data/**: Directory containing stock market datasets.< br / > 
 **src/:** Source code for data preprocessing, model implementation, training, and evaluation.
 **notebooks/:** Jupyter notebooks for exploratory data analysis and model experimentation.
 **reports/:** Directory for project reports and documentation.
