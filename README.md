@@ -4,14 +4,14 @@ This repository contains the code and resources for predicting stock market pric
 
 **Prerequisites**
 Install requirements.txt file to make sure correct versions of libraries are being used.
-Python 3.5.x**< br / >**
+Python 3.5.x
 TensorFlow 1.10.0
 Numpy 1.15.0
 Keras 2.2.2
 Matplotlib 2.2.2
 
 # Project Structure
-**data/**: Directory containing stock market datasets.< br / > 
+**data/**: Directory containing stock market datasets.<br/>
 **src/:** Source code for data preprocessing, model implementation, training, and evaluation.
 **notebooks/:** Jupyter notebooks for exploratory data analysis and model experimentation.
 **reports/:** Directory for project reports and documentation.
