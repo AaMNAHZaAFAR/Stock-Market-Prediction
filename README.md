@@ -4,23 +4,22 @@ This repository contains the code and resources for predicting stock market pric
 
 **Prerequisites**
 Install requirements.txt file to make sure correct versions of libraries are being used.<br/>
-Python 3.5.x<br/>
-TensorFlow 1.10.0<br/>
-Numpy 1.15.0<br/>
-Keras 2.2.2<br/>
-Matplotlib 2.2.2<br/>
+Python: 3.5.x<br/>
+TensorFlow: 1.10.0<br/>
+Numpy: 1.15.0<br/>
+Keras: 2.2.2<br/>
+Matplotlib: 2.2.2<br/>
+Pandas: 0.23.4<br/>
+Seaborn: 0.9.0<br/>
+Scikit-learn: 0.19.2<br/>
+Statsmodels: 0.9.0<br/>
+Dash: 0.21.0<br/>
+Plotly: 2.4.1<br/>
+Pickle: Python standard library (no specific version)
 
-# Project Structure
-**data/**: Directory containing stock market datasets.<br/>
-**src/:** Source code for data preprocessing, model implementation, training, and evaluation.<br/>
-**notebooks/:** Jupyter notebooks for exploratory data analysis and model experimentation.<br/>
-**reports/:** Directory for project reports and documentation.<br/>
-**models/:** Saved models and training checkpoints.<br/>
-**results/:** Evaluation results and comparison analysis.<br/>
-**portfolio/:** Design important elements through portfolio showcasing the best model findings and analysis.<br/>
 
 # Dataset
 **Input Format**<br/>
-Stock Market Data: I will be utilizing Kaggle's platform, which offers public license to datasets. The dataset is available at the following link: NYSE Dataset on Kaggle. The dataset is in CSV format with four files but i am going to use two of them prices.csv and prices-split-adjusted.csv.<br/>
+Stock Market Data: I will be utilizing Kaggle's platform, which offers public license to datasets. The dataset is available at the following link: NYSE Dataset on Kaggle. The dataset is in CSV format with four files but i am going to use one of them i.e. prices-split-adjusted.csv.<br/>
 **Output Format**<br/>
-Predicted Stock Prices: The output will be presented graphically thorough plots and histogram containing the date and predicted closing prices.<br/>
+Predicted Stock Prices: The output will be presented graphically thorough plots containing the actual and predicted closing prices.<br/>
