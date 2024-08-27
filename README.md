@@ -3,7 +3,7 @@
 This repository contains the code and resources for predicting stock market prices using Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM) networks, and Gated Recurrent Units (GRU). The aim of this project is to predict stock prices using advanced machine learning techniques and perform a comparative analysis of their performance.
 
 **Prerequisites**
-Install requirements.txt file to make sure correct versions of libraries are being used.<br/>
+Install correct versions of libraries:.<br/>
 Python: 3.5.x<br/>
 TensorFlow: 1.10.0<br/>
 Numpy: 1.15.0<br/>
