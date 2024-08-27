@@ -17,6 +17,26 @@ Dash: 0.21.0<br/>
 Plotly: 2.4.1<br/>
 Pickle: Python standard library (no specific version)
 
+## Project Structure
+# stockprediction.ipynb
+# This notebook contains the full workflow for predicting stock prices.
+# Due to the large file size, it has been divided into three files as given below: 
+
+### 1. Stock Exchange Analysis
+**File:** `Top_10_countries_Stock_Exchange.ipynb`  
+**Description:**  
+This notebook focuses on analyzing stock exchanges from 10 different countries. 
+
+### 2. Stock Prediction with Exploratory Data Analysis (EDA)
+**File:** `stockprediction_with_EDA.ipynb`  
+**Description:**  
+This notebook combines both Exploratory Data Analysis (EDA) which provides an in-depth analysis of the dataset.
+
+### 3. Stock Prediction without EDA
+**File:** `stockprediction_without_EDA_.ipynb`  
+**Description:**  
+This notebook focuses solely on the modeling part of stock price prediction. It assumes that the data has already been pre-processed and features have been engineered. This is ideal for users who are only interested in experimenting with different machine learning models.
+
 
 # Dataset
 **Input Format**<br/>
