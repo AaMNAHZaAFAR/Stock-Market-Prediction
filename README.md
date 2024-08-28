@@ -15,11 +15,11 @@ Scikit-learn: 0.19.2<br/>
 Statsmodels: 0.9.0<br/>
 Dash: 0.21.0<br/>
 Plotly: 2.4.1<br/>
-Pickle: Python standard library (no specific version)
+Pickle: Python standard library 
 
 # Dataset
 **Input Format**<br/>
-Stock Market Data: I will be utilizing Kaggle's platform, which offers public license to datasets. The dataset is available at the following link: NYSE Dataset on Kaggle. The dataset is in CSV format with four files but i am going to use one of them i.e. prices-split-adjusted.csv.<br/>
+New York Exchange Market Data: I will be utilizing Kaggle's platform, which offers public license to datasets. The dataset is available at the following link: NYSE Dataset on Kaggle. The dataset is in CSV format with four files but i am going to use one of them i.e. prices-split-adjusted.csv.<br/>
 **Output Format**<br/>
 Predicted Stock Prices: The output will be presented graphically thorough plots containing the actual and predicted closing prices.<br/>
 
@@ -41,5 +41,5 @@ This notebook combines both Exploratory Data Analysis (EDA) which provides an in
 ### 3. Stock Prediction without EDA
 **File:** `stockprediction_without_EDA_.ipynb`  
 **Description:**  
-This notebook focuses solely on the modeling part of stock price prediction. It assumes that the data has already been pre-processed and features have been engineered. This is ideal for users who are only interested in experimenting with different machine learning models.
+This notebook focuses solely on the modeling part of stock price prediction. It assumes that the data has already been pre-processed and features have been engineered. It includes data preprocessing techniques with model training and evaluation. This is ideal for users who are only interested in experimenting with different machine learning models.
 
