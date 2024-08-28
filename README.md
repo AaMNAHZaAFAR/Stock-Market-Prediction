@@ -18,9 +18,9 @@ Plotly: 2.4.1<br/>
 Pickle: Python standard library (no specific version)
 
 ## Project Structure
-# stockprediction.ipynb
-# This notebook contains the full workflow for predicting stock prices.
-# Due to the large file size, it has been divided into three files as given below: 
+### stockprediction.ipynb
+This notebook contains the full workflow for predicting stock prices.
+Due to the large file size, it has been divided into three files as given below: 
 
 ### 1. Stock Exchange Analysis
 **File:** `Top_10_countries_Stock_Exchange.ipynb`  
